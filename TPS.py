@@ -162,7 +162,7 @@ import matplotlib.pyplot as plt
 
 cities = City(50)
 cities.generate_city()
-print("cities: "cities.city_co)
+print("cities: ", cities.city_co)
 print("distance: ",cities.cal_distance(cities.city_co[0], cities.city_co[1]))
 print("number of cities:",cities.num_city)
 
